@@ -1,0 +1,46 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+	height: 100%;
+	width: 100vw;
+	background-color: #95d9d9;
+	
+	
+	
+}
+
+.face{
+ height: 400px;
+ width: 500px;
+ border-radius: 50%;
+ background-color: white;
+margin: auto;
+margin-top: 145px;
+}
+.eyes{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+
+
+}
+.eye{
+ height: 170px ;
+ width: 170px;
+ border-radius: 50%;
+ box-shadow: 0px 5px 4px 6px #e9e4e4;
+ border-color: grey;
+margin-top: 125px;
+
+}
+.pupil{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: black;
+	margin: auto;
+	margin-top: 65px;
+}
